@@ -1,0 +1,57 @@
+{
+  "name": "react-navigation-fluid-transitions",
+  "version": "0.3.2",
+  "description": "An extension to react-navigation providing transitions and shared element transitions.",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fram-x/FluidTransitions.git"
+  },
+  "keywords": [
+    "navigation",
+    "react-native",
+    "navigation",
+    "react",
+    "shared elements",
+    "transitions"
+  ],
+  "author": "Christian Falch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fram-x/FluidTransitions/issues"
+  },
+  "homepage": "https://github.com/fram-x/FluidTransitions#readme",
+  "dependencies": {
+    "lodash.sortby": "*",
+    "lodash.chunk": "*",
+    "lodash.clamp": "*",
+    "prop-types": "*"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-navigation": "^3.0.0",
+    "react-native-screens": "*",
+    "react-navigation-stack": "*"
+  },
+  "react-native": {
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "stream": "stream-browserify"
+  },
+  "browser": {
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "stream": "stream-browserify"
+  }
+}
